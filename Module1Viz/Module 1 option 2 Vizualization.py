@@ -24,6 +24,7 @@ df = pd.DataFrame({
 #1 Generate a scatter plot comparing num_children and num_pets
 df.plot(kind='scatter',x='num_children',y='num_pets',color='red')
 plt.show()
+
 #2 Generate a simple line plot
 df.plot(kind='bar',x='name',y='age')
 plt.show()
